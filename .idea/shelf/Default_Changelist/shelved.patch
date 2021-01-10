@@ -1,0 +1,58 @@
+Index: 5-security-oauth2-parent/test/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <parent>\r\n        <artifactId>5-security-oauth2-parent</artifactId>\r\n        <groupId>cn.tedu</groupId>\r\n        <version>1.0.0</version>\r\n    </parent>\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <artifactId>test</artifactId>\r\n\r\n\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- 5-security-oauth2-parent/test/pom.xml	(revision 9487dca096ee3950d649cf2e2eb6fa328157aa28)
++++ 5-security-oauth2-parent/test/pom.xml	(date 1610282964786)
+@@ -3,13 +3,17 @@
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+     <parent>
+-        <artifactId>5-security-oauth2-parent</artifactId>
++        <artifactId>bigdata-parent</artifactId>
+         <groupId>cn.tedu</groupId>
+-        <version>1.0.0</version>
++        <version>1.0-SNAPSHOT</version>
+     </parent>
+     <modelVersion>4.0.0</modelVersion>
+ 
+-    <artifactId>test</artifactId>
++    <artifactId>1-ssm-parent</artifactId>
++    <packaging>pom</packaging>
++    <modules>
++        <module>SSM-ORDER-USER</module>
++    </modules>
+ 
+ 
+ </project>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile default=\"true\" name=\"Default\" enabled=\"true\" />\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"easymallimg\" />\r\n        <module name=\"test\" />\r\n        <module name=\"springbootorderuser\" />\r\n        <module name=\"springbootdemo02\" />\r\n        <module name=\"springbootdemo01\" />\r\n        <module name=\"easymallcart\" />\r\n        <module name=\"springbootouuser\" />\r\n        <module name=\"easymallorder\" />\r\n        <module name=\"easymallsearch\" />\r\n        <module name=\"ribbonclient\" />\r\n        <module name=\"eurekaclient\" />\r\n        <module name=\"SSMORDERUSER\" />\r\n        <module name=\"gatewayserver\" />\r\n        <module name=\"springbootouorder\" />\r\n        <module name=\"configclient\" />\r\n        <module name=\"easymallcommonresources\" />\r\n        <module name=\"easymallproduct\" />\r\n        <module name=\"easymallproductapi\" />\r\n        <module name=\"easymallseckill\" />\r\n        <module name=\"easymalluser\" />\r\n        <module name=\"eurekaserver\" />\r\n        <module name=\"sessiondemo01\" />\r\n        <module name=\"feignclient\" />\r\n        <module name=\"securitydemo01\" />\r\n        <module name=\"securityresourceserver\" />\r\n        <module name=\"springoauth2server\" />\r\n        <module name=\"configserver\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n  </component>\r\n  <component name=\"JavacSettings\">\r\n    <option name=\"ADDITIONAL_OPTIONS_OVERRIDE\">\r\n      <module name=\"configclient\" options=\"-parameters\" />\r\n      <module name=\"configserver\" options=\"-parameters\" />\r\n      <module name=\"easymallcart\" options=\"-parameters\" />\r\n      <module name=\"easymallcommonresources\" options=\"-parameters\" />\r\n      <module name=\"easymallimg\" options=\"-parameters\" />\r\n      <module name=\"easymallorder\" options=\"-parameters\" />\r\n      <module name=\"easymallproduct\" options=\"-parameters\" />\r\n      <module name=\"easymallproductapi\" options=\"-parameters\" />\r\n      <module name=\"easymallsearch\" options=\"-parameters\" />\r\n      <module name=\"easymallseckill\" options=\"-parameters\" />\r\n      <module name=\"easymalluser\" options=\"-parameters\" />\r\n      <module name=\"eurekaclient\" options=\"-parameters\" />\r\n      <module name=\"eurekaserver\" options=\"-parameters\" />\r\n      <module name=\"feignclient\" options=\"-parameters\" />\r\n      <module name=\"gatewayserver\" options=\"-parameters\" />\r\n      <module name=\"ribbonclient\" options=\"-parameters\" />\r\n      <module name=\"securitydemo01\" options=\"-parameters\" />\r\n      <module name=\"securityresourceserver\" options=\"-parameters\" />\r\n      <module name=\"sessiondemo01\" options=\"-parameters\" />\r\n      <module name=\"springbootdemo01\" options=\"-parameters\" />\r\n      <module name=\"springbootdemo02\" options=\"-parameters\" />\r\n      <module name=\"springbootorderuser\" options=\"-parameters\" />\r\n      <module name=\"springbootouorder\" options=\"-parameters\" />\r\n      <module name=\"springbootouuser\" options=\"-parameters\" />\r\n      <module name=\"springoauth2server\" options=\"-parameters\" />\r\n      <module name=\"test\" options=\"-parameters\" />\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/compiler.xml	(revision 9487dca096ee3950d649cf2e2eb6fa328157aa28)
++++ .idea/compiler.xml	(date 1610283027662)
+@@ -8,7 +8,6 @@
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+         <outputRelativeToContentRoot value="true" />
+         <module name="easymallimg" />
+-        <module name="test" />
+         <module name="springbootorderuser" />
+         <module name="springbootdemo02" />
+         <module name="springbootdemo01" />
+@@ -64,7 +63,7 @@
+       <module name="springbootouorder" options="-parameters" />
+       <module name="springbootouuser" options="-parameters" />
+       <module name="springoauth2server" options="-parameters" />
+-      <module name="test" options="-parameters" />
++      <module name="test" options="" />
+     </option>
+   </component>
+ </project>
+\ No newline at end of file
