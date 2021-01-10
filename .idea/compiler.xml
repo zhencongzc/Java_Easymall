@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="easymallimg" />
-        <module name="springbootorderuser" />
         <module name="springbootdemo02" />
         <module name="springbootdemo01" />
         <module name="easymallcart" />
@@ -18,11 +17,12 @@
         <module name="ribbonclient" />
         <module name="eurekaclient" />
         <module name="SSMORDERUSER" />
+        <module name="easymallproduct" />
         <module name="gatewayserver" />
         <module name="springbootouorder" />
         <module name="configclient" />
         <module name="easymallcommonresources" />
-        <module name="easymallproduct" />
+        <module name="springbootorderuser" />
         <module name="easymallproductapi" />
         <module name="easymallseckill" />
         <module name="easymalluser" />
