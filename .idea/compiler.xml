@@ -7,39 +7,72 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="easymallimg" />
-        <module name="springbootdemo02" />
-        <module name="springbootdemo01" />
-        <module name="easymallcart" />
-        <module name="springbootouuser" />
-        <module name="easymallorder" />
-        <module name="easymallsearch" />
-        <module name="ribbonclient" />
-        <module name="eurekaclient" />
-        <module name="SSMORDERUSER" />
-        <module name="easymallproduct" />
-        <module name="gatewayserver" />
-        <module name="springbootouorder" />
+        <module name="eureka-server" />
         <module name="configclient" />
-        <module name="easymallcommonresources" />
         <module name="springbootorderuser" />
-        <module name="easymallproductapi" />
-        <module name="easymallseckill" />
-        <module name="easymalluser" />
-        <module name="eurekaserver" />
-        <module name="sessiondemo01" />
-        <module name="feignclient" />
-        <module name="securitydemo01" />
+        <module name="springboot-ou-user" />
+        <module name="easymall-search" />
+        <module name="easymallorder" />
         <module name="securityresourceserver" />
+        <module name="easymall-product-api" />
         <module name="springoauth2server" />
+        <module name="easymallseckill" />
+        <module name="springboot-demo01" />
+        <module name="springboot-ou-order" />
+        <module name="securitydemo01" />
+        <module name="SSMORDERUSER" />
+        <module name="easymalluser" />
+        <module name="ribbon-client" />
+        <module name="eurekaserver" />
+        <module name="springboot-demo02" />
+        <module name="config-client" />
+        <module name="springbootdemo02" />
+        <module name="easymall-user" />
+        <module name="springboot-order-user" />
+        <module name="easymall-common-resources" />
+        <module name="config-server" />
+        <module name="springbootdemo01" />
+        <module name="springbootouorder" />
+        <module name="easymall.seckill" />
+        <module name="easymallcart" />
+        <module name="easymall-cart" />
+        <module name="easymallproductapi" />
+        <module name="eurekaclient" />
+        <module name="easymallsearch" />
+        <module name="easymallproduct" />
+        <module name="springbootouuser" />
+        <module name="feign-client" />
+        <module name="security-demo01" />
+        <module name="easymall-order" />
+        <module name="easymallcommonresources" />
+        <module name="sessiondemo01" />
         <module name="configserver" />
+        <module name="easymall-img" />
+        <module name="feignclient" />
+        <module name="gateway-server" />
+        <module name="easymall-product" />
+        <module name="gatewayserver" />
+        <module name="eureka-client" />
+        <module name="ribbonclient" />
+        <module name="easymallimg" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="configclient" options="-parameters" />
       <module name="configserver" options="-parameters" />
+      <module name="easymall-cart" options="-parameters" />
+      <module name="easymall-common-resources" options="-parameters" />
+      <module name="easymall-img" options="-parameters" />
+      <module name="easymall-order" options="-parameters" />
+      <module name="easymall-product" options="-parameters" />
+      <module name="easymall-product-api" options="-parameters" />
+      <module name="easymall-search" options="-parameters" />
+      <module name="easymall-user" options="-parameters" />
+      <module name="easymall.seckill" options="-parameters" />
       <module name="easymallcart" options="-parameters" />
       <module name="easymallcommonresources" options="-parameters" />
       <module name="easymallimg" options="-parameters" />
@@ -49,14 +82,25 @@
       <module name="easymallsearch" options="-parameters" />
       <module name="easymallseckill" options="-parameters" />
       <module name="easymalluser" options="-parameters" />
+      <module name="eureka-client" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="eurekaclient" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
+      <module name="feign-client" options="-parameters" />
       <module name="feignclient" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
       <module name="gatewayserver" options="-parameters" />
+      <module name="ribbon-client" options="-parameters" />
       <module name="ribbonclient" options="-parameters" />
+      <module name="security-demo01" options="-parameters" />
       <module name="securitydemo01" options="-parameters" />
       <module name="securityresourceserver" options="-parameters" />
       <module name="sessiondemo01" options="-parameters" />
+      <module name="springboot-demo01" options="-parameters" />
+      <module name="springboot-demo02" options="-parameters" />
+      <module name="springboot-order-user" options="-parameters" />
+      <module name="springboot-ou-order" options="-parameters" />
+      <module name="springboot-ou-user" options="-parameters" />
       <module name="springbootdemo01" options="-parameters" />
       <module name="springbootdemo02" options="-parameters" />
       <module name="springbootorderuser" options="-parameters" />

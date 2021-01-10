@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/5-security-oauth2-parent/_5securityoauth2parent.iml" filepath="$PROJECT_DIR$/5-security-oauth2-parent/_5securityoauth2parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bigdata-parent.iml" filepath="$PROJECT_DIR$/bigdata-parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/5-security-oauth2-parent/security-demo01/security-demo01.iml" filepath="$PROJECT_DIR$/5-security-oauth2-parent/security-demo01/security-demo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/5-security-oauth2-parent/security-resource-server/security-resource-server.iml" filepath="$PROJECT_DIR$/5-security-oauth2-parent/security-resource-server/security-resource-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/5-security-oauth2-parent/session-demo01/session-demo01.iml" filepath="$PROJECT_DIR$/5-security-oauth2-parent/session-demo01/session-demo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/5-security-oauth2-parent/spring-oauth2-server/spring-oauth2-server.iml" filepath="$PROJECT_DIR$/5-security-oauth2-parent/spring-oauth2-server/spring-oauth2-server.iml" />
