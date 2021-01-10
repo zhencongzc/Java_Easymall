@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SSMORDERUSER:war">
+    <output-path>$PROJECT_DIR$/1-ssm-parent/SSM-ORDER-USER/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SSMORDERUSER</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SSM-ORDER-USER-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SSMORDERUSER:war exploded" />
+    </root>
+  </artifact>
+</component>
