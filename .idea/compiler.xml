@@ -7,35 +7,50 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="easymallimg" />
-        <module name="test" />
-        <module name="springbootorderuser" />
-        <module name="springbootdemo02" />
-        <module name="springbootdemo01" />
-        <module name="easymallcart" />
-        <module name="springbootouuser" />
-        <module name="easymallorder" />
-        <module name="easymallsearch" />
-        <module name="ribbonclient" />
-        <module name="eurekaclient" />
-        <module name="SSMORDERUSER" />
-        <module name="gatewayserver" />
-        <module name="springbootouorder" />
-        <module name="configclient" />
-        <module name="easymallcommonresources" />
-        <module name="easymallproduct" />
-        <module name="easymallproductapi" />
-        <module name="easymallseckill" />
-        <module name="easymalluser" />
-        <module name="eurekaserver" />
-        <module name="sessiondemo01" />
-        <module name="feignclient" />
-        <module name="securitydemo01" />
-        <module name="securityresourceserver" />
-        <module name="springoauth2server" />
-        <module name="configserver" />
+        <module name="security-resource-server" />
+        <module name="spring-oauth2-server" />
+        <module name="session-demo01" />
+        <module name="security-demo01" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="_1ssmparent" target="1.5" />
+      <module name="_2springbootparent" target="1.5" />
+      <module name="_3springcloudparent" target="1.8" />
+      <module name="_4easymallparent" target="1.8" />
+      <module name="_5securityoauth2parent" target="1.8" />
+      <module name="bigdata-parent" target="1.5" />
+      <module name="configclient" target="1.8" />
+      <module name="configserver" target="1.8" />
+      <module name="easymallcart" target="1.8" />
+      <module name="easymallcommonresources" target="1.8" />
+      <module name="easymallimg" target="1.8" />
+      <module name="easymallorder" target="1.8" />
+      <module name="easymallproduct" target="1.8" />
+      <module name="easymallproductapi" target="1.8" />
+      <module name="easymallsearch" target="1.8" />
+      <module name="easymallseckill" target="1.8" />
+      <module name="easymalluser" target="1.8" />
+      <module name="eurekaclient" target="1.8" />
+      <module name="eurekaserver" target="1.8" />
+      <module name="feignclient" target="1.8" />
+      <module name="gatewayserver" target="1.8" />
+      <module name="ribbonclient" target="1.8" />
+      <module name="security-demo01" target="1.8" />
+      <module name="security-resource-server" target="1.8" />
+      <module name="securitydemo01" target="1.8" />
+      <module name="securityresourceserver" target="1.8" />
+      <module name="session-demo01" target="1.8" />
+      <module name="sessiondemo01" target="1.8" />
+      <module name="spring-oauth2-server" target="1.8" />
+      <module name="springbootdemo01" target="1.8" />
+      <module name="springbootdemo02" target="1.8" />
+      <module name="springbootorderuser" target="1.8" />
+      <module name="springbootouorder" target="1.8" />
+      <module name="springbootouuser" target="1.8" />
+      <module name="springoauth2server" target="1.8" />
+      <module name="SSMORDERUSER" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -55,16 +70,19 @@
       <module name="feignclient" options="-parameters" />
       <module name="gatewayserver" options="-parameters" />
       <module name="ribbonclient" options="-parameters" />
+      <module name="security-demo01" options="-parameters" />
+      <module name="security-resource-server" options="-parameters" />
       <module name="securitydemo01" options="-parameters" />
       <module name="securityresourceserver" options="-parameters" />
+      <module name="session-demo01" options="-parameters" />
       <module name="sessiondemo01" options="-parameters" />
+      <module name="spring-oauth2-server" options="-parameters" />
       <module name="springbootdemo01" options="-parameters" />
       <module name="springbootdemo02" options="-parameters" />
       <module name="springbootorderuser" options="-parameters" />
       <module name="springbootouorder" options="-parameters" />
       <module name="springbootouuser" options="-parameters" />
       <module name="springoauth2server" options="-parameters" />
-      <module name="test" options="-parameters" />
     </option>
   </component>
 </project>
