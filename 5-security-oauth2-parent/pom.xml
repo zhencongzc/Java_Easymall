@@ -18,6 +18,7 @@
         <module>session-demo01</module>
         <module>spring-oauth2-server</module>
         <module>security-resource-server</module>
+        <module>test</module>
     </modules>
     <dependencies>
         <dependency>

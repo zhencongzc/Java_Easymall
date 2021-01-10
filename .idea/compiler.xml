@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="easymallimg" />
+        <module name="test" />
         <module name="springbootorderuser" />
         <module name="springbootdemo02" />
         <module name="springbootdemo01" />
@@ -63,6 +64,7 @@
       <module name="springbootouorder" options="-parameters" />
       <module name="springbootouuser" options="-parameters" />
       <module name="springoauth2server" options="-parameters" />
+      <module name="test" options="-parameters" />
     </option>
   </component>
 </project>

@@ -29,5 +29,6 @@
     <file url="file://$PROJECT_DIR$/5-security-oauth2-parent/security-resource-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/5-security-oauth2-parent/session-demo01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/5-security-oauth2-parent/spring-oauth2-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5-security-oauth2-parent/test" charset="UTF-8" />
   </component>
 </project>
